@@ -452,6 +452,41 @@ svg {
 }
 /* challengens */
 .challengens{
+  background-color: #ede9e9ca;
+}
+.challengens .challengens_activity{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.challengens_item{
+  padding: 50px 100px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: #0101010d 2px 3px 4px 5px;
+  background-color: white;
+  transition: .3s ease;
+  
+}
+.challengens_item:hover{
+ transform: translateY(-0.25rem);
+  box-shadow: #2e293314 0px 2px 4px, rgb(71 63 79 / 16%) 0px 5px 10px;
+  transition: 0.3s ease;
+  
+}
+.challengens_item h4 a{
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 25px;
+  display: block;
+  color: gray;
+  transition: 0.3 ease;
+  
+}
+.challengens_item h4 a:hover{
+  text-decoration: none;
+  color: #00732c;
   
 }
 @media screen and (min-width: 1280px) {
@@ -494,6 +529,7 @@ svg {
     margin-top: 0;
   }
  
+
 }
 @media screen and (max-width: 1080px) {
   .title2 {
