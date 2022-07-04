@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
   <meta charset="UTF-8" />
@@ -37,7 +37,7 @@
 
 <body id="darkBody">
 
-  <header id="corp" class="nav-fixed fixed">
+  <header id="corp" class="fixed-top  ">
     <div class="container">
       <nav class="navbar navbar-expand-lg py-2  navbar-dark  ">
         <h1><a class="navbar-brand" href="https://wp.w3layouts.com/corpvision/">
@@ -46,7 +46,8 @@
           </a></h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorp"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCorp">
@@ -77,7 +78,7 @@
               <a class="nav-link ">Contact</a>
             </li>
           </ul>
-          <div class="header-search HeaderSearch">
+          <div class="header-search">
             <div class='control'>
               <div class='btn-material'>
                 <i class='fa fa-search icon-material-search'></i>
@@ -94,9 +95,13 @@
         </div>
       </nav>
     </div>
+
   </header>
 
   <section class=" corpvision_carousel">
+    <div class="corpvision_overlay">
+
+    </div>
     <div id="carousel-corpid" class="carousel slide carousel-fade">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -119,11 +124,9 @@
           <img src="./img/b2.jpg" class="d-block w-100" alt="b2">
           <div class="carousel-caption ">
             <h1 class="animate__animated animate__fadeInDown" data-delay="0.8s" data-color="#fff">Embracing success do
-              our best, need best
-              advice </h1>
+              our best, need best advice </h1>
             <p class="animate__animated animate__fadeInDown" class="mt-4">Lorem ipsum dolor sit amet, elit, sed do
-              eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+              eiusmod ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
             <div class="btn-corp animate__animated animate__fadeInDown animate__delay-1s">
               <a href="#" class="btn btn-turn btn-primary">
                 Get Started</a>
@@ -135,8 +138,7 @@
           <img src="./img/b3.jpg" class="d-block w-100" alt="b3">
           <div class="carousel-caption ">
             <h1 class="animate__animated animate__fadeInUp" data-color="#fff" data-delay="0.8s"> Digital transformation
-              driven by
-              technology</h1>
+              driven by technology</h1>
             <p class="animate__animated animate__fadeInUp" class="mt-4">Lorem ipsum dolor sit amet, elit, sed do eiusmod
               ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
@@ -153,8 +155,7 @@
             <h1 class="animate__animated animate__flipInX" data-color="#fff" data-delay="0.8s">
               For those who believe in leaving a mark</h1>
             <p class="animate__animated animate__fadeInDown" class="mt-4">Lorem ipsum dolor sit amet, elit, sed do
-              eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+              eiusmod ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
             <div class="btn-corp animate__animated animate__fadeInUp animate__delay-1s">
               <a href="#" class="btn btn-turn btn-primary">
                 Contact Now</a>
@@ -177,7 +178,7 @@
 
 
       <div class="shape">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 350">
           <path fill-opacity="1">
             <animate attributeName="d" dur="30000ms" repeatCount="indefinite"
               values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
@@ -194,18 +195,30 @@
       <div class="row">
         <div class="col-lg-6">
           <span class="title">About Us</span>
-          <h3 class="title2">We make the best strategies for you, Enhancing your success</h3>
+          <h2 class="title2">We make the best strategies for you, Enhancing your success</h2>
           <p class="mt-md-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea. </p>
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut
+            ex ea. </p>
 
           <ul class="About-list pt-lg-2 mt-4">
-            <li class="About-link"><a href="#"><i class="fa fa-check-circle"></i>
-                UI/UX Design and Development</a></li>
-            <li class="About-link"><a href="#"><i class="fa fa-check-circle"></i>
-                Branding Design and Identity</a></li>
-            <li class="About-link"><a href="#"><i class="fa fa-check-circle"></i>
-                Mobile App Design and Development</a></li>
+            <li class="About-link">
+              <a href="#">
+                <i class="fa fa-check-circle"></i>
+                UI/UX Design and Development
+              </a>
+            </li>
+            <li class="About-link">
+              <a href="#">
+                <i class="fa fa-check-circle"></i>
+                Branding Design and Identity
+              </a>
+            </li>
+            <li class="About-link">
+              <a href="#">
+                <i class="fa fa-check-circle"></i>
+                Mobile App Design and Development
+              </a>
+            </li>
           </ul>
 
         </div>
@@ -228,7 +241,7 @@
       <div class="row main-cont-wthree-2 align-items-center">
         <div class="challengens_left col-lg-6 pr-lg-5">
           <h5 class="title">Every day brings new challenges</h5>
-          <h3 class="title2 mb-4">Creative agency focused on vision, product and people</h3>
+          <h2 class="title2 mb-4">Creative agency focused on vision, product and people</h2>
           <p class="text-para">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
             lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit
             amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum. </p>
@@ -240,8 +253,7 @@
 
             <div class="challengens_item ">
               <div class="icon">
-                <img src="./img/icon1.png"
-                  alt="icon1" class="img-fluid">
+                <img src="./img/icon1.png" alt="icon1" class="img-fluid">
               </div>
               <h4><a href="#" class="title-head">
                   Our Process</a></h4>
@@ -249,8 +261,7 @@
 
             <div class="challengens_item">
               <div class="icon">
-                <img src="./img/icon2.png"
-                  alt="icon2" class="img-fluid">
+                <img src="./img/icon2.png" alt="icon2" class="img-fluid">
               </div>
               <h4><a href="#" class="title-head">
                   How We Help</a></h4>
@@ -258,8 +269,7 @@
 
             <div class="challengens_item">
               <div class="icon">
-                <img src="./img/icon3.png"
-                  alt="icon3" class="img-fluid">
+                <img src="./img/icon3.png" alt="icon3" class="img-fluid">
               </div>
               <h4><a href="#" class="title-head">
                   UI/UX Design</a></h4>
@@ -267,8 +277,7 @@
 
             <div class="challengens_item">
               <div class="icon">
-                <img src="./img/icon4.png"
-                  alt="icon4" class="img-fluid">
+                <img src="./img/icon4.png" alt="icon4" class="img-fluid">
               </div>
               <h4><a href="#" class="title-head">
                   Creative Ideas</a></h4>
@@ -279,7 +288,51 @@
       </div>
     </div>
   </section>
-  <section class="always"></section>
+  <section class="care">
+    <div class="container">
+      <h2 class="title2 text-center">Always there for your care, our Services</h2>
+      <div class="row mt-lg-5 mt-4 text-center justify-content-center">
+        <div class="col-lg-4 col-md-6 ">
+          <div class="care_item">
+            <a href="#">
+              <img src="./img/s1.jpg" class="card-img-top" alt="s1">
+            </a>
+            <div class="care_info">
+              <a href="#" class="title">Work Expertise</a>
+              <p class="card-text">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <a href="#" class="btn btn-origin mt-3">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-md-0 mt-5 ">
+          <div class="care_item">
+            <a href="#">
+              <img src="./img/s2.jpg" class="card-img-top" alt="s2">
+            </a>
+            <div class="care_info">
+              <a href="#" class="title"> Product Development</a>
+              <p class="card-text">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <a href="#" class="btn btn-origin mt-3">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-md-0 mt-5 ">
+          <div class="care_item">
+            <a href="#">
+              <img src="./img/s3.jpg" class="card-img-top" alt="s3">
+            </a>
+            <div class="care_info">
+              <a href="#" class="title">
+                Software Development</a>
+              <p class="card-text">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <a href="#" class="btn btn-origin mt-3">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
   <section class="gallery py-5">
     <div class="container gallery__bg">
@@ -361,7 +414,7 @@
 
         </div>
       </div>
-      
+
       <div class="row company__logo pt-5 mt-5 justify-content-center">
         <div class="col-lg-2 col-md-3 col-4">
           <img src="./img/brand1.png" alt="" class="img-fluid">
@@ -378,7 +431,7 @@
         <div class="col-lg-2 col-md-3 col-4">
           <img src="./img/brand5.png" alt="" class="img-fluid">
         </div>
-       
+
       </div>
     </div>
   </section>
