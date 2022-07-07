@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body id="darkBody">
+<body>
 
   <header id="corp" class="fixed-top  ">
     <div class="container">
@@ -85,12 +85,18 @@
               </div>
             </div>
           </div>
-          <div>
-            <button class="btnnut" id="switchButton" title="Click to switch theme">
-              <i class="far fa-moon"></i>
-              <i class="far fa-sun"></i>
-            </button>
-
+          <div class="mobile-position">
+            <nav class="navigation">
+              <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <div class="mode-container">
+                    <i class="gg-sun"></i>
+                    <i class="gg-moon"></i>
+                  </div>
+                </label>
+              </div>
+            </nav>
           </div>
         </div>
       </nav>
@@ -248,39 +254,35 @@
           <a href="#about" class="btn btn-style btn-primary mt-lg-5 mt-4">
             Discover More</a>
         </div>
-        <div class="challengens_right col-lg-6  mt-lg-0 mt-md-5 mt-4 justify-content-center">
-          <div class="challengens_activity call col-6 col-sm-4">
+        <div class="col-lg-6  mt-lg-0 mt-md-5 mt-4 justify-content-center">
+          <div class="challengens_activity  ">
 
-            <div class="challengens_item ">
+            <div class="box-wrap">
               <div class="icon">
                 <img src="./img/icon1.png" alt="icon1" class="img-fluid">
               </div>
-              <h4><a href="#" class="title-head">
-                  Our Process</a></h4>
+              <h4><a href="#" class="title-head">Our Process</a></h4>
             </div>
 
-            <div class="challengens_item">
+            <div class=" box-wrap">
               <div class="icon">
                 <img src="./img/icon2.png" alt="icon2" class="img-fluid">
               </div>
-              <h4><a href="#" class="title-head">
-                  How We Help</a></h4>
+              <h4><a href="#" class="title-head">How We Help</a></h4>
             </div>
 
-            <div class="challengens_item">
+            <div class=" box-wrap">
               <div class="icon">
                 <img src="./img/icon3.png" alt="icon3" class="img-fluid">
               </div>
-              <h4><a href="#" class="title-head">
-                  UI/UX Design</a></h4>
+              <h4><a href="#" class="title-head">UI/UX Design</a></h4>
             </div>
 
-            <div class="challengens_item">
+            <div class=" box-wrap">
               <div class="icon">
                 <img src="./img/icon4.png" alt="icon4" class="img-fluid">
               </div>
-              <h4><a href="#" class="title-head">
-                  Creative Ideas</a></h4>
+              <h4><a href="#" class="title-head">Creative Ideas</a></h4>
             </div>
 
           </div>
