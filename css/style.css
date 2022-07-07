@@ -514,7 +514,7 @@ svg {
 /* challengens */
 .challengens {
 
-  /* padding: 100px; */
+  padding: 100px;
 }
 
 .challengens_activity {
@@ -523,21 +523,21 @@ svg {
   gap: 30px;
 }
 
-.box-wrap{
+.box-wrap {
   padding: 40px 30px;
   border-radius: var(--border-radius);
   text-align: center;
   box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
   background-color: var(--bg-color);
   transition: 0.3s ease;
-  
+
 }
 
 .box-wrap:hover {
   transform: translateY(-0.25rem);
   box-shadow: #2e293314 0px 2px 4px, rgb(71 63 79 / 16%) 0px 5px 10px;
   transition: 0.3s ease;
-  
+
 }
 
 .box-wrap h4 a {
@@ -835,6 +835,92 @@ svg {
   background-image: linear-gradient(-224deg, #0d8abc, #61fded);
 }
 
+/* together */
+.together {
+  background-image: url(../images/map.png);
+  background-color: #151421;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.together h3 {
+  color: white;
+}
+
+.together p {
+  color: #eee;
+}
+
+.together-info {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* footer */
+footer {
+  background: #151421;
+  border-top: 1px solid rgba(249, 249, 249, 0.1);
+}
+.footer-logo a{
+  color: white;
+}
+.footer-list a{
+  color: #97a1a9;;
+}
+
+.footer .navbar-brand span.fa {
+  color: var(--primary-color);
+  margin-right: 8px;
+  vertical-align: bottom;
+  font-size: 30px;
+}
+.footer .navbar-brand span.logo {
+  text-transform: none;
+  display: block;
+  font-size: 15px;
+  padding-left: 40px;
+  font-weight: 40;
+  opacity: .9;
+}
+.footer .footer-list ul li a:hover, .copyright .footer-list ul li a:hover, footer a:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+.footer-title {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.copyright #movetop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background: var(--primary-color);
+  padding: 0;
+  line-height: 36px;
+  border-radius: 35px;
+  transition: 0.3s ease-out;
+}
+.copyright a{
+  color: var(--primary-color);
+  
+}
 /* reponsive */
 
 @media screen and (max-width: 1024px) {}
