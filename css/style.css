@@ -118,9 +118,11 @@ header .navbar .navbar-brand .logo {
   font-weight: 600;
   opacity: 1;
 }
+
 button.navbar-toggler.collapsed .icon-close {
   display: none;
 }
+
 #navbarCorp .nav-item {
   margin: 0 10px;
 }
@@ -392,7 +394,7 @@ svg {
 .nextprev {
   text-align: right;
   padding-right: 30px;
-  
+
 
 }
 
@@ -412,12 +414,17 @@ svg {
   display: inline-block;
 
 }
-.carousel-control-prev, .carousel-control-next i {
-  font-size: 16px;
+
+.carousel-control-prev i {
+
   color: var(--heading-color);
 }
 
-.carousel-control-prev button{
+.carousel-control-next i {
+  color: var(--heading-color);
+}
+
+.carousel-control-prev button {
   left: 25px;
 }
 
@@ -438,10 +445,6 @@ svg {
   display: inline-block;
 }
 
-.corpvision_overlay {
-  opacity: 0.2;
-
-}
 
 /* About */
 .About {
@@ -495,14 +498,12 @@ svg {
 }
 
 .image .activity {
-  position: relative !important;;
+  position: relative !important;
+  ;
 }
 
 /* challengens */
-.challengens {
-
- 
-}
+.challengens {}
 
 .challengens_activity {
   display: grid;
@@ -812,9 +813,9 @@ footer a:hover {
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width:1280px) {
   .carousel-caption h1 {
-    font-size: 55px;
+    font-size: 55px !important;
   }
 
   .container {
@@ -823,7 +824,7 @@ footer a:hover {
 
 }
 
-@media screen and(min-width: 1200px) {
+@media screen and(min-width:1200px) {
   .container {
     max-width: 1140px;
     margin-right: auto;
@@ -832,19 +833,20 @@ footer a:hover {
 }
 
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width:1080px) {
   .title2 {
     font-size: 32px !important;
-    line-height: 40px;
+    line-height: 40px !important;
+  }
 }
-}
- 
 
 
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width:992px) {
 
   .carousel-caption h1 {
-    font-size: 50px;
+    font-size: 50px !important;
+    padding: 0;
   }
 
   .container {
@@ -852,93 +854,103 @@ footer a:hover {
     margin-right: auto;
     margin-left: auto;
   }
-  .fixed-top{
+
+  .fixed-top {
     height: auto;
     padding: 20px 0;
   }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     display: block;
-}
+  }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     display: inline-block;
     padding: 6px 0;
     text-align: center;
-}
-  
-  .col-lg-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
   }
 
+
+
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
 
 
- 
+
   .carousel-captiont h1 {
-    font-size: 45px;
+    font-size: 45px !important;
+    padding: 0;
   }
 
   .carousel-caption p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 18px !important;
+    line-height: 28px !important;
   }
-  .mt-md-5, .my-md-5 {
+
+  .mt-md-5,
+  .my-md-5 {
     margin-top: 3rem !important;
-}
+  }
 
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width:568px) {
   .carousel-captiont h1 {
-    font-size: 40px;
+    font-size: 40px !important;
+    padding: 0;
   }
 
   .content {
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 30px !important;
+    line-height: 38px !important;
   }
-  .About-list ul li  {
-    margin-bottom: 10px;
+
+  .About-list ul li {
+    margin-bottom: 10px !important;
   }
+
   .title2 {
     font-size: 30px !important;
     line-height: 38px;
-}
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
   header .navbar {
-    padding: 30px 0px;
+    padding: 30px 0px !important;
   }
 
   .carousel-captiont h1 {
-    font-size: 36px;
+    font-size: 36px !important;
+    padding: 0;
   }
 
   .About-right .row {
-    padding: 0 10px;
+    padding: 0 10px !important;
   }
 
 }
 
-@media screen and(max-width: 415px) {
+@media screen and (max-width:415px) {
   .carousel-captiont h1 {
-    font-size: 32px;
+    font-size: 32px !important;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width:384px) {
   .carousel-captiont h1 {
-    font-size: 28px;
-    line-height: 1.2;
+    font-size: 28px !important;
+    line-height: 1.2 !important;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width:375px) {
   .carousel-captiont h1 {
-    font-size: 27px;
+    font-size: 27px !important;
+    padding: 0;
   }
 }
