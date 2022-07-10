@@ -1,0 +1,2 @@
+link deloy githud https://nguyenvantruong9876.github.io/du-an-corpvision/
+link deloy vercel https://du-an-corpvision.vercel.app/?fbclid=IwAR2ggPmlghoB1tI_E9nHkIb1U0jEaRmbrO93gE4Gex0Cy0VECF9sR4QG4Wg

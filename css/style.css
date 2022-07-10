@@ -367,7 +367,7 @@ button.navbar-toggler.collapsed .icon-close {
 .btn-turn {
   text-align: left;
   padding: 15px 50px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 18px;
   font-weight: 600;
   transition: 0.3s ease-in;
@@ -661,10 +661,12 @@ svg {
 /* Title galery */
 
 /* zoom hình khi  */
-.gallery__content .item:hover img {
-  transition: ease-out;
-  /* border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0; */
+
+
+.gallery__content a:hover img {
+  overflow: hidden;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out; 
 }
 
 .overlay__hover {
@@ -1051,7 +1053,8 @@ svg {
 }
 .news a.zoom img:hover {
   transform: scale(1.1);
-  
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
 }
 
 .blog-desc {
@@ -1065,6 +1068,7 @@ svg {
 }
 .blog-desc:hover {
   color: var(--primary-color);
+  transition: all .7s;
 }
 
 .card-footer .author {
