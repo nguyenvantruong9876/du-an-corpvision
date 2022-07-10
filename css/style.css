@@ -1032,9 +1032,7 @@ svg {
   box-shadow: 0 25px 98px 0 rgb(0 0 0 / 4%);
   border: 1px solid var(--border-color);
 }
-.blog-meta li a:hover {
-    color: var(--primary-color);
-}
+
 .post-thumbnail img {
   width: 100%;
   min-height: 100%;
@@ -1045,7 +1043,12 @@ svg {
   transition: all .3s ease;
   
 }
-
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  cursor: pointer;
+}
 .news a.zoom img:hover {
   transform: scale(1.1);
   
@@ -1058,6 +1061,10 @@ svg {
   font-weight: 600;
   color: var(--heading-color);
   margin-top: 10px;
+  cursor: pointer;
+}
+.blog-desc:hover {
+  color: var(--primary-color);
 }
 
 .card-footer .author {
