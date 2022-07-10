@@ -850,7 +850,7 @@ opacity: .8;
 }
 /*! feedback */
 .feedback{
-background-color: #f8f9fa;
+/* background-color: #f8f9fa; */
 }
 .feedback__width{
 width: 60%;
@@ -914,12 +914,6 @@ font-style: normal;
 margin-bottom: 0;
 opacity: 0.8;
 }
-
-
-
-
-
-
 
 
 /* together */
