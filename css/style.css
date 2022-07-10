@@ -367,7 +367,7 @@ button.navbar-toggler.collapsed .icon-close {
 .btn-turn {
   text-align: left;
   padding: 15px 50px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 18px;
   font-weight: 600;
   transition: 0.3s ease-in;
@@ -1032,6 +1032,9 @@ svg {
   box-shadow: 0 25px 98px 0 rgb(0 0 0 / 4%);
   border: 1px solid var(--border-color);
 }
+.blog-meta li a:hover {
+    color: var(--primary-color);
+}
 .post-thumbnail img {
   width: 100%;
   min-height: 100%;
@@ -1067,6 +1070,10 @@ svg {
 .blog-meta {
   margin: 0;
   padding: 0;
+}
+.blog-meta li a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 /* together */
